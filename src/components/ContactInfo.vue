@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <p>
-      <i :class="icon" aria-hidden="true"></i>
-      <a class="content" :href="href">{{ type }}</a>
-    </p>
+  <div class="is-size-5 has-text-left">
+    <a class="content" :href="href">
+      <span class="icon has-text-light is-large">
+        <i :class="icon" aria-hidden="true"></i>
+      </span>
+      {{ type }}
+    </a>
   </div>
 </template>
 

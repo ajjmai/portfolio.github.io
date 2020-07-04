@@ -1,8 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HomePage name="ajjmai" />
-  </div>
+  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
+  <HomePage name="ajjmai" />
 </template>
 
 <script>

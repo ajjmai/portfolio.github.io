@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style lang="scss">
+$primary: #0b5563;
+$body-background-color: #0b5563;
+@import "~bulma/bulma.sass";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,14 +35,33 @@ export default {
 #nav {
   padding: 30px;
 
+  #logo,
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #88a096;
     margin-right: 3px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: white;
+      background-color: #0b5563;
     }
+  }
+  a:hover {
+    background-color: #0d6b7e;
+  }
+}
+
+#nav #logo,
+.title,
+.subtitle {
+  color: white;
+}
+
+footer {
+  background-color: 88a096;
+  color: #0b5563;
+  a {
+    color: #0b5563;
   }
 }
 </style>
