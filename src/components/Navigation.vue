@@ -1,24 +1,22 @@
 <template>
-  <nav
-    id="nav"
-    class="navbar is-primary"
-    role="navigation"
-    aria-label="main navigation"
-  >
+  <nav id="nav" class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <p id="logo" class="navbar-item is-size-3">@ajjmai</p>
+      <p id="logo" class="navbar-item is-size-4">@ajjmai</p>
       <a
         role="button"
-        class="navbar-burger burger"
+        class="navbar-burger"
         aria-label="menu"
         aria-expanded="false"
+        data-target="navbar-menu"
+        v-bind:class="{ 'is-active': showNav }"
+        @click="showNav = !showNav"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div class="navbar-menu">
+    <div id="navbar-menu" class="navbar-menu" v-bind:class="{ 'is-active': showNav }">
       <div class="navbar-end">
         <router-link to="/" class="navbar-item">Home</router-link>
         <router-link to="/about" class="navbar-item">About</router-link>
@@ -28,3 +26,15 @@
     </div>
   </nav>
 </template>
+
+<script>
+
+export default {
+  name: "Navigation",
+  data: function() {
+    return {
+      showNav: false
+    };
+  }
+};
+</script>

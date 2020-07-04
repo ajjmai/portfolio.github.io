@@ -1,13 +1,21 @@
 <template>
   <section class="hero is-medium">
-    <div id="contact" class="hero-body">
+    <div id="contact" class="hero-body is-medium">
       <h1 class="title is-1">Contact</h1>
       <div class="columns is-centered">
         <div class="column is-narrow">
           <ContactInfo icon="fa fa-envelope" href="mailto:a@a.fi" type="Email" />
           <!-- <ContactInfo icon="fa fa-linkedin" href="address" type="LinkedIn" /> -->
-          <ContactInfo icon="fa fa-github" href="https://github.com/ajjmai" type="github.com/ajjmai" />
-          <ContactInfo icon="fa fa-codepen" href="https://codepen.io/ajjmai" type="codepen.io/ajjmai" />
+          <ContactInfo
+            icon="fa fa-github"
+            href="https://github.com/ajjmai"
+            type="github.com/ajjmai"
+          />
+          <ContactInfo
+            icon="fa fa-codepen"
+            href="https://codepen.io/ajjmai"
+            type="codepen.io/ajjmai"
+          />
         </div>
       </div>
     </div>

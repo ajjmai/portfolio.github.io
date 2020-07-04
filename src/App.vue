@@ -20,8 +20,9 @@ export default {
 </script>
 
 <style lang="scss">
-$primary: #0b5563;
+$light: #dde3e1;
 $body-background-color: #0b5563;
+$footer-background-color: $light;
 @import "~bulma/bulma.sass";
 
 #app {
@@ -38,27 +39,24 @@ $body-background-color: #0b5563;
   #logo,
   a {
     font-weight: bold;
-    color: #88a096;
+    color: #0b5563;
     margin-right: 3px;
 
     &.router-link-exact-active {
-      color: white;
-      background-color: #0b5563;
+      color: #824a75;
     }
-  }
-  a:hover {
-    background-color: #0d6b7e;
   }
 }
 
-#nav #logo,
+#nav #logo {
+  color: #0b5563;
+}
 .title,
 .subtitle {
   color: white;
 }
 
 footer {
-  background-color: 88a096;
   color: #0b5563;
   a {
     color: #0b5563;
