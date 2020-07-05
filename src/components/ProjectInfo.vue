@@ -1,7 +1,5 @@
 <template>
-  <section class="hero">
-    <div class="hero-body">
-      <h1 class="title is-1">My Projects</h1>
-    </div>
+  <section class="section has-background-light has-text-primary">
+    <p>text</p>
   </section>
 </template>

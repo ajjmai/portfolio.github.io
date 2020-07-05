@@ -1,8 +1,14 @@
 <template>
   <div id="app">
-    <Navigation />
-    <router-view />
-    <Footer />
+    <section class="hero is-large">
+      <section class="hero-head">
+        <Navigation />
+      </section>
+      <router-view />
+      <section class="hero-foot">
+        <Footer />
+      </section>
+    </section>
   </div>
 </template>
 
@@ -21,7 +27,9 @@ export default {
 
 <style lang="scss">
 $light: #dde3e1;
-$body-background-color: #0b5563;
+$primary: #0b5563;
+$danger: #824a75;
+$body-background-color: $primary;
 $footer-background-color: $light;
 @import "~bulma/bulma.sass";
 
@@ -51,6 +59,11 @@ $footer-background-color: $light;
 #nav #logo {
   color: #0b5563;
 }
+.hero .navbar {
+  background-color: #dde3e1;
+}
+
+
 .title,
 .subtitle {
   color: white;

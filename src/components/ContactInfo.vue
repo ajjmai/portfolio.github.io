@@ -1,6 +1,6 @@
 <template>
   <div class="is-size-5 has-text-left">
-    <a class="content" :href="href">
+    <a class="content" :href="href" target="_blank">
       <span class="icon has-text-light is-large">
         <i :class="icon" aria-hidden="true"></i>
       </span>

@@ -1,6 +1,6 @@
 <template>
-  <section class="hero is-medium">
-    <div id="contact" class="hero-body is-medium">
+  <div id="contact" class="hero-body is-medium">
+    <div class="containter">
       <h1 class="title is-1">Contact</h1>
       <div class="columns is-centered">
         <div class="column is-narrow">
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
