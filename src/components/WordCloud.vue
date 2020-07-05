@@ -24,6 +24,7 @@
       ['Vue.js', 4],
       ['React Native', 4],
       ['RestAPI', 4],
+      ['Axios', 4],
       ['Akoma Ntoso', 3],
       ['Bulma', 3],
       ['ggplot2', 3],
