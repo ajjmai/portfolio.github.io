@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import ProjectService from "@/services/ProjectService";
+import ProjectsService from "@/services/ProjectsService";
 import PostCard from "@/components/PostCard";
 export default {
   name: "ProjectInfo",
@@ -27,7 +27,7 @@ export default {
     let self = this;
     async function getProjects() {
       try {
-        const response = await ProjectService.getProjects();
+        const response = await ProjectsService.getProjects();
         console.log(response);
         self.airtableResponse = response.data.records;
       } catch (err) {
