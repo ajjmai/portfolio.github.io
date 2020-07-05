@@ -1,7 +1,7 @@
 <template>
   <section class="section has-background-light has-text-primary">
     <div class="container is-fluid">
-      <div class="container is-multiline">
+      <div class="columns is-multiline">
         <div class="column is-one-third" v-for="project in projects" v-bind:key="project">
           <PostCard v-bind="project"></PostCard>
         </div>

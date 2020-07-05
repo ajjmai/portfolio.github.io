@@ -63,12 +63,6 @@ $footer-background-color: $light;
   background-color: #dde3e1;
 }
 
-
-.title,
-.subtitle {
-  color: white;
-}
-
 footer {
   color: #0b5563;
   a {

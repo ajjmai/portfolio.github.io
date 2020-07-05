@@ -12,5 +12,8 @@ Axios.defaults.headers.common = {
 export default {
   getProjects() {
     return Axios.get();
+  },
+  getProject(slug) {
+    return Axios.get(`?filterByFormula={Slug}='${slug}'`);
   }
 };

@@ -1,9 +1,7 @@
 <template>
   <div id="about">
     <HeroBanner title="About Me" />
-    <section
-      class="section has-background-light has-text-primary has-text-weight-bold"
-    >
+    <section class="section has-background-light has-text-primary has-text-weight-bold">
       <p>
         I have a Master's Degree in Law and I'm currently studying Computer
         Science in Aalto Universtiy (GPA 4.5).
@@ -18,16 +16,16 @@
     </section>
     <section class="section">
       <div class="columns is-centered">
-        <WordCloud />
+        <div class="column is-half">
+          <WordCloud />
+        </div>
       </div>
       <div class="has-text-light">
         Techonologies, frameworks and tools I have experience with a lot
         (bigger) or less (smaller).
       </div>
     </section>
-    <section
-      class="section has-background-light has-text-primary has-text-weight-bold"
-    >
+    <section class="section has-background-light has-text-primary has-text-weight-bold">
       <h2 class="subtitle is-3 has-text-primary">What other say about me</h2>
       <div class="columns">
         <QuoteCard text="ajjmai is a creative problem solver." />
@@ -40,16 +38,14 @@
         <QuoteCard text="ajjmai is solution focused." />
       </div>
     </section>
-    <section
-      class="section has-background-primary has-text-light has-text-weight-bold"
-    ></section>
+    <section class="section has-background-primary has-text-light has-text-weight-bold"></section>
   </div>
 </template>
 
 <script>
 import QuoteCard from "@/components/QuoteCard.vue";
 import HeroBanner from "@/components/HeroBanner.vue";
-import WordCloud from "../components/WordCloud.vue"
+import WordCloud from "../components/WordCloud.vue";
 
 export default {
   name: "About",
@@ -62,8 +58,22 @@ export default {
 </script>
 
 <style lang="scss">
-#word-cloud {
-  height: 480px !important;
-  width: 640px !important;
+@media only screen and (min-width: 700px) {
+  #word-cloud {
+    height: 480px !important;
+    width: 640px !important;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 320px) {
+  #word-cloud {
+    height: 240px !important;
+    width: 320px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #word-cloud {
+    height: 120px !important;
+    width: 160px !important;
+  }
 }
 </style>
