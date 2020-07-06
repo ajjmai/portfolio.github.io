@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <HeroBanner title="About Me" />
+    <hero-banner title="About Me" />
     <section
       class="section has-background-light has-text-primary has-text-weight-bold"
     >
@@ -19,7 +19,7 @@
     <section class="section">
       <div class="columns is-centered">
         <div class="column is-half">
-          <WordCloud />
+          <word-cloud />
         </div>
       </div>
       <div class="has-text-light">
@@ -32,14 +32,14 @@
     >
       <h2 class="subtitle is-3 has-text-primary">What other say about me</h2>
       <div class="columns">
-        <QuoteCard text="ajjmai is a creative problem solver." />
-        <QuoteCard text="She's constantly thinking of how to improve things." />
-        <QuoteCard text="ajjmai is a analytical and critical thinker." />
+        <quote-card text="ajjmai is a creative problem solver." />
+        <quote-card text="She's constantly thinking of how to improve things." />
+        <quote-card text="ajjmai is a analytical and critical thinker." />
       </div>
       <div class="columns">
-        <QuoteCard text="She's persistent and goal oriented." />
-        <QuoteCard text="ajjmai is always willing to help a teammate." />
-        <QuoteCard text="ajjmai is solution focused." />
+        <quote-card text="She's persistent and goal oriented." />
+        <quote-card text="ajjmai is always willing to help a teammate." />
+        <quote-card text="ajjmai is solution focused." />
       </div>
     </section>
     <section

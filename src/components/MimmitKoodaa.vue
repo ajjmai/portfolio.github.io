@@ -1,6 +1,6 @@
 <template>
   <section class="section has-background-primary has-text-light has-text-weight-bold">
-    <h2 class="title is-2 has-text-light">#mimmitkoodaa</h2>
+    <h2 class="title is-2">#mimmitkoodaa</h2>
     <p class="is-size-5">
       <a href="https://mimmitkoodaa.ohjelmistoebusiness.fi" target="_blank">#mimmitkoodaa</a>
       is a great initiative that aims to bring more diversity into IT.

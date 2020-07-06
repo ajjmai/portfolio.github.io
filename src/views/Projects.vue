@@ -1,8 +1,8 @@
 <template>
   <div id="projects">
-    <HeroBanner title="My Projects" />
-    <ProjectInfo />
-    <MimmitKoodaa />
+    <hero-banner title="My Projects" />
+    <project-info />
+    <mimmit-koodaa />
   </div>
 </template>
 

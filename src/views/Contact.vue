@@ -4,18 +4,17 @@
       <h1 class="title is-1 has-text-light">Contact</h1>
       <div class="columns is-centered">
         <div class="column is-narrow">
-          <ContactInfo
+          <contact-info
             icon="fa fa-envelope"
             href="mailto:a@a.fi"
             type="Email"
           />
-          <!-- <ContactInfo icon="fa fa-linkedin" href="address" type="LinkedIn" /> -->
-          <ContactInfo
+          <contact-info
             icon="fa fa-github"
             href="https://github.com/ajjmai"
             type="github.com/ajjmai"
           />
-          <ContactInfo
+          <contact-info
             icon="fa fa-codepen"
             href="https://codepen.io/ajjmai"
             type="codepen.io/ajjmai"

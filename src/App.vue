@@ -31,6 +31,8 @@ $primary: #0b5563;
 $danger: #824a75;
 $body-background-color: $primary;
 $footer-background-color: $light;
+$title-color: $light;
+$subtitle-color: $light;
 @import "~bulma/bulma.sass";
 
 #app {

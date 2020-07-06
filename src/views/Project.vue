@@ -1,8 +1,8 @@
 <template>
   <div>
     <section class="section">
-      <h1 class="title is-2 has-text-light">{{ project.title }}</h1>
-      <h2 class="subtitle is-4 has-text-light">{{ project.snippet }}</h2>
+      <h1 class="title is-2">{{ project.title }}</h1>
+      <h2 class="subtitle is-4">{{ project.snippet }}</h2>
     </section>
     <section class="section">
       <div class="container is-fluid">
