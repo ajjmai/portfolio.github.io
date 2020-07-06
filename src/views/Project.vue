@@ -8,12 +8,21 @@
       <div class="container is-fluid">
         <div class="columns">
           <div class="column is-two-thirds">
-            <vue-simple-markdown class="has-text-light has-text-weight-bold" :source="project.body"></vue-simple-markdown>
+            <vue-simple-markdown
+              class="has-text-light has-text-weight-bold"
+              :source="project.body"
+            ></vue-simple-markdown>
           </div>
           <div class="column is-one-third">
             <div class="columns is-multiline">
-              <div class="column is-full" v-for="image in project.images" v-bind:key="image">
-                <img :src="image.url" />
+              <div
+                class="column is-full"
+                v-for="image in project.images"
+                v-bind:key="image"
+              >
+                <div class="box has-background-light">
+                  <img :src="image.url" />
+                </div>
               </div>
             </div>
           </div>
@@ -67,6 +76,6 @@ export default {
 
 <style lang="scss">
 .markdown-body a {
-    color: #dde3e1 !important;
+  color: #e4b6d8 !important;
 }
 </style>

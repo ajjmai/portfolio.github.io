@@ -1,7 +1,9 @@
 <template>
   <div id="about">
     <HeroBanner title="About Me" />
-    <section class="section has-background-light has-text-primary has-text-weight-bold">
+    <section
+      class="section has-background-light has-text-primary has-text-weight-bold"
+    >
       <p>
         I have a Master's Degree in Law and I'm currently studying Computer
         Science in Aalto Universtiy (GPA 4.5).
@@ -25,7 +27,9 @@
         (bigger) or less (smaller).
       </div>
     </section>
-    <section class="section has-background-light has-text-primary has-text-weight-bold">
+    <section
+      class="section has-background-light has-text-primary has-text-weight-bold"
+    >
       <h2 class="subtitle is-3 has-text-primary">What other say about me</h2>
       <div class="columns">
         <QuoteCard text="ajjmai is a creative problem solver." />
@@ -38,7 +42,9 @@
         <QuoteCard text="ajjmai is solution focused." />
       </div>
     </section>
-    <section class="section has-background-primary has-text-light has-text-weight-bold"></section>
+    <section
+      class="section has-background-primary has-text-light has-text-weight-bold"
+    ></section>
   </div>
 </template>
 

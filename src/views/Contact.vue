@@ -4,7 +4,11 @@
       <h1 class="title is-1 has-text-light">Contact</h1>
       <div class="columns is-centered">
         <div class="column is-narrow">
-          <ContactInfo icon="fa fa-envelope" href="mailto:a@a.fi" type="Email" />
+          <ContactInfo
+            icon="fa fa-envelope"
+            href="mailto:a@a.fi"
+            type="Email"
+          />
           <!-- <ContactInfo icon="fa fa-linkedin" href="address" type="LinkedIn" /> -->
           <ContactInfo
             icon="fa fa-github"
