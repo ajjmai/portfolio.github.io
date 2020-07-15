@@ -6,8 +6,7 @@
       <a href="https://vuejs.org" target="_blank">Vue.js</a>,
       <a href="https://github.com/SeregPie/VueWordCloud" target="_blank">
         VueWordCloud</a
-      >, <a href="https://bulma.io" target="_blank">Bulma</a> and
-      <a href="https://airtable.com" target="_blank">Airtable</a>.
+      > and <a href="https://bulma.io" target="_blank">Bulma</a>.
     </p>
     <p>
       Source code at: <a href="https://github.com/ajjmai/portfolio">GitHub</a>
