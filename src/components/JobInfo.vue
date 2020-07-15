@@ -1,23 +1,33 @@
 <template>
   <section class="section">
-    <div class="columns">
-      <div class="column">
-        <article class="message is-danger">
-          <div class="message-header">
-            <h3 class="title has-text-white">Do you have a job for me? I'm looking for new challenges!</h3>
-          </div>
-          <div class="message-body has-text-left">
+    <article class="message is-danger">
+      <div class="message-header">
+        <h3 class="title has-text-white">
+          Do you have a job for me? I'm looking for new challenges!
+        </h3>
+      </div>
+      <div class="message-body has-text-left">
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle has-text-danger has-text-weight-bold">
+              What I'm looking for:
+            </h4>
             <p class="pb-2">
               <span class="has-text-weight-bold">Role</span> - I'm looking for a
               full-stack developer position but am open to other roles as well.
             </p>
             <p class="pb-2">
-              <span class="has-text-weight-bold">Techonologies</span> - I have
-              most experience in Python, Java, Scala and JavaScript but I'd love
-              to learn new technologies as well.
+              <span class="has-text-weight-bold">Company</span> - I would like
+              to work for an IT consulting company.
             </p>
             <p class="pb-2">
-              <span class="has-text-weight-bold">Strengths</span> - ...
+              <span class="has-text-weight-bold">Stack</span> - I have most
+              experience in Python, Java, Scala and JavaScript but I'd love to
+              learn new technologies as well.
+            </p>
+            <p class="pb-2">
+              <span class="has-text-weight-bold">Tasks</span> - I like having
+              varied tasks.
             </p>
             <p class="pb-2">
               <span class="has-text-weight-bold">Projects</span> - Due to my
@@ -25,14 +35,10 @@
               that develop IT solutions for the legal industry.
             </p>
           </div>
-        </article>
-      </div>
-      <div class="column">
-        <article class="message is-danger">
-          <div class="message-header">
-            <h3 class="title has-text-white">What I value:</h3>
-          </div>
-          <div class="message-body has-text-left">
+          <div class="column">
+            <h4 class="subtitle has-text-danger has-text-weight-bold">
+              What I value:
+            </h4>
             <p class="pb-2">
               <span class="has-text-weight-bold">Learning</span> - I thrive on
               learning new skills, life is boring otherwise.
@@ -43,11 +49,6 @@
               >
               - I want to become the best IT professional that I can be and
               appreciate career advancement opportunities within the company.
-            </p>
-            <p class="pb-2">
-              <span class="has-text-weight-bold">Autonomy & Independece</span> -
-              I like to choose my own work times and expect to be trusted to do
-              my job. Working from home from time to time should be possible.
             </p>
             <p class="pb-2">
               <span class="has-text-weight-bold">Support</span> - I think it's
@@ -64,9 +65,14 @@
               working with people with different backgrounds. I think diversity
               of people contributes to diversity of ideas.
             </p>
+            <p class="pb-2">
+              <span class="has-text-weight-bold">Autonomy & Independece</span> -
+              I take responsibilty for my work. I value flexibility to choose my
+              work times and work styles.
+            </p>
           </div>
-        </article>
+        </div>
       </div>
-    </div>
+    </article>
   </section>
 </template>

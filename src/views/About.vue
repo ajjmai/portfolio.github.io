@@ -9,7 +9,11 @@
         Science in Aalto Universtiy (GPA 4.5).
       </p>
       <i class="fa fa-code has-text-weight-bold py-5" aria-hidden="true"></i>
-      <p>I'm interested in developing IT solutions for the legal industry.</p>
+      <p>
+        My strengths are strong inner motivation for personal and professional
+        development and inquisitive mind that thrives on creative problem
+        solving.
+      </p>
       <i class="fa fa-code has-text-weight-bold py-5" aria-hidden="true"></i>
       <p>
         I would like to work with full-stack development with modern web
@@ -33,7 +37,9 @@
       <h2 class="subtitle is-3 has-text-primary">What other say about me</h2>
       <div class="columns">
         <quote-card text="ajjmai is a creative problem solver." />
-        <quote-card text="She's constantly thinking of how to improve things." />
+        <quote-card
+          text="She's constantly thinking of how to improve things."
+        />
         <quote-card text="ajjmai is a analytical and critical thinker." />
       </div>
       <div class="columns">
