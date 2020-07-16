@@ -4,11 +4,11 @@
       <h1 class="title is-1 has-text-light">Contact</h1>
       <div class="columns is-centered">
         <div class="column is-narrow">
-          <contact-info
+          <!-- <contact-info
             icon="fa fa-envelope"
             href="mailto:a@a.fi"
             type="Email"
-          />
+          /> -->
           <contact-info
             icon="fa fa-github"
             href="https://github.com/ajjmai"
