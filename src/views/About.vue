@@ -16,8 +16,7 @@
       </p>
       <i class="fa fa-code has-text-weight-bold py-5" aria-hidden="true"></i>
       <p>
-        I would like to work with full-stack development with modern web
-        technologies such as Reach and Python/Java.
+        I'm passionate about creative problem solving and learning new things.
       </p>
     </section>
     <section class="section">

@@ -16,30 +16,29 @@
           </div>
           <div class="column is-half">
             <project-info
-              title="Population Graphs App"
-              image="population-graphs.png"
-              description="I created this web page as part of [Sympa MOOC](https://mimmitkoodaa.ohjelmistoebusiness.fi/mimmit-koodaa-mooc-sympa/). It fetches population data from World Bank API and visualises it.
-              I practiced vanilla JavaScript, using APIs and deploying to Heroku."
-              technologies="HTML, CSS, JavaScript, Bootstrap"
-              resources="See the source code: [GitHub](https://github.com/ajjmai/population-graphs)
-The project is online: [Heroku](https://population-graphs-app.herokuapp.com/)"
-            />
-          </div>
-          <div class="column is-half">
-            <project-info
               title="Meower"
               image="meower.png"
               description="A study project for [Web-palvelinohjelmointi Java MOOC](https://web-palvelinohjelmointi-s19.mooc.fi/). This is a Twitter-like app where the users can among others create profiles, post messages and photos, friend other users and comment and like their friends' posts. "
-              technologies="Java, Spring Boot, Thymeleaf, Bootstrap, PostgreSQL"
+              technologies="Java, Spring Boot, Thymeleaf, Bootstrap, PostgreSQL, Heroku"
               resources="See the source code: [GitHub](https://github.com/ajjmai/wepa-Twitter)
 The project is online: [Heroku](https://afternoon-scrubland-16835.herokuapp.com/home)"
             />
           </div>
           <div class="column is-half">
             <project-info
+              title="Population Graphs App"
+              image="population-graphs.png"
+              description="I created this web page as part of [Sympa MOOC](https://mimmitkoodaa.ohjelmistoebusiness.fi/mimmit-koodaa-mooc-sympa/). It fetches population data from World Bank API and visualises it."
+              technologies="HTML, CSS, JavaScript, Bootstrap, API, Heroku"
+              resources="See the source code: [GitHub](https://github.com/ajjmai/population-graphs)
+The project is online: [Heroku](https://population-graphs-app.herokuapp.com/)"
+            />
+          </div>
+          <div class="column is-half">
+            <project-info
               title="Squid Squad"
               image="squid_squad.png"
-              description="A group study project: two-player laser squad type game where squids battle with throwing rocks. "
+              description="A group study project: two-player laser squad type game where squids battle by throwing rocks. "
               technologies="C++, SFML"
               hasResources="visibility: hidden"
             />
@@ -56,9 +55,9 @@ The project is online: [Heroku](https://afternoon-scrubland-16835.herokuapp.com/
           <div class="column is-half">
             <project-info
               title="Game Store App"
-              image="logo.png"
+              image="icons8-django-64.png"
               description="A group study project. Game web store app where one can search, buy and play games."
-              technologies="Python, Django, Bootstrap, Ajax"
+              technologies="Python, Django, Bootstrap, Ajax, Heroku"
               hasResources="visibility: hidden"
             />
           </div>

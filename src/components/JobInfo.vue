@@ -21,9 +21,10 @@
               to work for an IT consulting company.
             </p>
             <p class="pb-2">
-              <span class="has-text-weight-bold">Stack</span> - I have most
-              experience in Python, Java, Scala and JavaScript but I'd love to
-              learn new technologies as well.
+              <span class="has-text-weight-bold">Technologies</span> - I have
+              most experience in Python, Java, Scala and JavaScript but I'd love
+              to learn new technologies as well. I would like to work with
+              modern web technologies such as React, Vue.js or AngularJS.
             </p>
             <p class="pb-2">
               <span class="has-text-weight-bold">Tasks</span> - I like having
