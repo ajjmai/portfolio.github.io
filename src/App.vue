@@ -43,6 +43,11 @@ $subtitle-color: $light;
   color: #2c3e50;
 }
 
+#home,
+#contact {
+  min-height: 80vh;
+}
+
 #nav {
   padding: 30px;
 
@@ -67,6 +72,8 @@ $subtitle-color: $light;
 
 footer {
   color: #0b5563;
+  min-height: 15vh;
+
   a {
     color: #0b5563;
   }

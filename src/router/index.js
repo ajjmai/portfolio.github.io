@@ -3,7 +3,6 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Contact from "../views/Contact.vue";
 import Projects from "../views/Projects.vue";
-import Project from "../views/Project.vue";
 
 Vue.use(VueRouter);
 
@@ -31,11 +30,6 @@ const routes = [
     path: "/projects",
     name: "Projects",
     component: Projects
-  },
-  {
-    path: "/project/:slug",
-    name: "Project",
-    component: Project
   }
 ];
 
