@@ -16,7 +16,7 @@
       </p>
       <i class="fa fa-code has-text-weight-bold py-5" aria-hidden="true"></i>
       <p>
-        I'm passionate about creative problem solving and learning new things.
+        I love learning new things.
       </p>
     </section>
     <section class="section">
@@ -26,8 +26,8 @@
         </div>
       </div>
       <div class="has-text-light">
-        Techonologies, frameworks and tools I have experience with a lot
-        (bigger) or less (smaller).
+        Techonologies, frameworks and tools that I have experience with or that
+        I have tried out.
       </div>
     </section>
     <section

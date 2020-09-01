@@ -6,6 +6,15 @@
         <div class="columns is-multiline">
           <div class="column is-half">
             <project-info
+              title="Akoma Ntoso XML"
+              image="placeholder.jpg"
+              description="As part of my Bachelor's Thesis in Computer Science I experimented how to transfer one Finnish Act to Akoma Ntoso XML. The Akoma Ntoso Documentation can be found [here](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml). "
+              technologies="Akoma Ntoso XML"
+              resources="See the source code: [GitHub](https://github.com/ajjmai/akoma-ntoso-example)"
+            />
+          </div>
+          <div class="column is-half">
+            <project-info
               title="Portfolio"
               image="portfolio.png"
               description="I wanted to learn more about Vue.js and so I made this portfolio page. I got to practice other new technologies as well: I used Bulma Framework for styling and also added option for using Airtable as CMS.
@@ -55,7 +64,7 @@ The project is online: [Heroku](https://population-graphs-app.herokuapp.com/)"
           <div class="column is-half">
             <project-info
               title="Game Store App"
-              image="icons8-django-64.png"
+              image="placeholder.jpg"
               description="A group study project. Game web store app where one can search, buy and play games."
               technologies="Python, Django, Bootstrap, Ajax, Heroku"
               hasResources="visibility: hidden"

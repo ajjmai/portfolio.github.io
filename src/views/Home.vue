@@ -6,17 +6,11 @@
         Lawyer and Software Developer.
       </h2>
     </section>
-    <job-info />
   </div>
 </template>
 
 <script>
-import JobInfo from "../components/JobInfo";
-
 export default {
-  name: "Home",
-  components: {
-    JobInfo
-  }
+  name: "Home"
 };
 </script>

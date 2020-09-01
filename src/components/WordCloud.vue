@@ -38,7 +38,8 @@
       ['Mockito', 2],
       ['GraphQL', 2],
       ['C#', 2],
-      ['Arduino', 2]
+      ['Arduino', 2],
+      ['Robot Framework', 2]
     ]"
     :color="
       ([, weight]) =>
