@@ -1,4 +1,10 @@
-# portfolio
+# Portfolio
+
+A portfolio web page with Vue.js and Bulma.
+
+Deployed to https://ajjmai.github.io/portfolio/.
+
+![Screencap of my app](./src/assets/portfolio.png)
 
 ## Project setup
 ```
